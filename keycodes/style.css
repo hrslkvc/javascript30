@@ -1,0 +1,8 @@
+body {
+    font-size: 200px;
+    transition: background-color 1.5s ease;
+}
+
+#main  {
+    transition: font-size 1s ease;
+}
