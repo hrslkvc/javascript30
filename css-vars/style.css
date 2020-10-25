@@ -1,0 +1,27 @@
+:root {
+    --size: 200px;
+    --roundness: 0%;
+    --color: #BADA55;
+}
+.box {
+    width: var(--size);
+    height: var(--size);
+    background-color: var(--color);
+    border-radius: var(--roundness);
+    margin: auto;
+}
+
+.highlight {
+    color: var(--color);
+}
+
+.header, .controls {
+    text-align: center;
+}
+
+.header {
+    margin-bottom: 50px;
+}
+.controls {
+    margin-bottom: 50px;
+}
